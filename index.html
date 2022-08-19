@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ivan Guan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ivan Guan">Ivan Guan</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ivanjguan@gmail.com" class="contact-link">ivanjguan@gmail.com</a>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Los Angeles, CA, United States</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ivanguan1/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/IvanG17" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Computer Science and Statistics @ UCLA
+          </p>
+
+          <p>
+            Software Engineer Intern with previous experiences at Raytheon Intelligence & Space and TDS Telecommunications. Demonstrated skills in C++, Python, and Oracle SQL, and MySQL. 
+          </p>
+        </section>
+
+
+       
+
+    
+
+        <section class="Education">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Education</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">University of California, Los Angeles</h4>
+  
+                <span>2020-2024</span>
+  
+                <p class="timeline-text">
+                  Dual BS in Computer Science and Statistics <br> 
+                  Activities: Data Resolutions, Data Science Union
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Arcadia High School</h4>
+  
+                <span>2016-2020</span>
+  
+                <p class="timeline-text">
+                  Activities: Arcadia Physics Team, Engineering Design and Development, FIRST Tech Challenge
+                </p>
+  
+              </li>
+  
+             
+            </ol>
+  
+          </section>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="logo-tux"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Experience</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Software Engineer Intern @ Raytheon</h4>
+  
+                <span>Jun. 2022 - Sept. 2022</span>
+  
+                <p class="timeline-text">
+                  Developed a radar GUI simulation using C++ Qt, C++ Boost, and Python to reduce manual air testing
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Data and Business Intelligence Intern @ TDS Telecommunications</h4>
+  
+                <span>Nov. 2021 - Apr. 2022</span>
+  
+                <p class="timeline-text">
+                   Decreased company spending by using MySQL, Oracle SQL, and Alteryx to identify thousands of faulty customer accounts
+                </p>
+  
+              </li>
+  
+             
+  
+            </ol>
+  
+          </section>
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="construct"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Projects</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Bruinzon</h4>
+  
+                
+  
+                <p class="timeline-text">
+                  Developed an ecommerce website to market UCLA merchandise with React.js, MongoDB, Node.js, and Express
+
+                  <br>
+                  <br>
+                  <strong>Skills: </strong> MongoDB, Express.js, React.js, Node.js, JWT Authentication, Cors
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Stock Prediction Model</h4>
+  
+         
+  
+                <p class="timeline-text">
+                   Utilized support vector regression model to predict opening and closing prices of popular stocks on the exchange 
+                   <br>
+                   <br>
+                   <strong>Skills: </strong> Python, pandas, NumPy, scikit-learn
+                </p>
+  
+              </li>
+  
+             
+  
+            </ol>
+  
+          </section>
+<!-- 
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header> -->
+  
+          
+  
+          <!-- <section class="contact-form">
+  
+            <h3 class="h3 form-title">Contact Form</h3>
+  
+            <form action="#" class="form" data-form>
+  
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+  
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+  
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+  
+              <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+  
+            </form>
+  
+          </section>
+  
+
+          
+        </section> -->
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
